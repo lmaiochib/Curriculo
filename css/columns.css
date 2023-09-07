@@ -1,0 +1,132 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.column {
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    background-color: #213635;
+    min-height: 100%;
+    width: 5%;
+
+}
+
+.center {
+    background-color: whitesmoke;
+    min-height: 100%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    color: #348e91;
+    font-size: 1.85rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-shadow: #213635 2px 2px 2px;
+    margin-bottom: 0%;
+}
+
+
+.subname {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 10%;
+    
+}
+
+.about-me {
+    font-size: 1.25rem;
+    /* text-shadow: black 1px 1px 1px; */
+    letter-spacing: 0.1rem;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.years-about {
+
+}
+
+.work-about {
+
+}
+
+.right {
+    background-color: #213635;
+    min-height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    flex-direction: column;
+}
+
+.img {
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contact {
+    font-size:0.8rem;
+}
+
+.contact-title {
+    color: whitesmoke;
+    font-size: 1.25rem;
+    text-shadow: white 0.1rem 0.1rem 0.1rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.formacao-title {
+    color: whitesmoke;
+    font-size: 20px;
+    text-shadow: white 0.1rem 0.1rem 0.1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.trader-date {
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
+
+.trader{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.frontend-date {
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.frontend {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
